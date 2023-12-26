@@ -47,14 +47,14 @@ private val DarkColors = darkColorScheme(
 
 @Composable
 fun PaletProTheme(
-    useDarkTheme: Boolean = isSystemInDarkTheme(),
+    useDarkTheme: Boolean = false,
     content: @Composable () -> Unit,
 ) {
     val autoColors = if (useDarkTheme) DarkColors else LightColors
 
     MaterialTheme(
         colorScheme = autoColors,
-        typography = getTypography(),
+//        typography = getTypography(),
         shapes = Shapes,
         content = content,
     )

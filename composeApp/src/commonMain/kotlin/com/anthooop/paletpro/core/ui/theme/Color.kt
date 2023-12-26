@@ -2,7 +2,7 @@ package com.anthooop.paletpro.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val PrimaryColor = Color(0xff214E78)
+val PrimaryColor = Color(0xffFFFFFD)
 val PrimaryLightColor = PrimaryColor.copy(alpha = 0.75f)
 
 val SecondaryColor = Color(0xff7C93BE)
