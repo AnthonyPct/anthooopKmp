@@ -1,6 +1,8 @@
 package com.anthooop.paletpro.preview
 
 import androidx.compose.foundation.layout.Row
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.anthooop.paletpro.core.ui.component.LoadingButton
@@ -109,7 +111,7 @@ private fun OutlineRedButtonPreview() {
     PaletProTheme {
         OutlineRedButton(
             text = "Se déconnecter",
-            icon = "",
+            icon = null,
         )
     }
 }
@@ -119,7 +121,7 @@ private fun OutlineRedButtonPreview() {
 private fun FloatingActionButtonPreview() {
     PaletProTheme {
         PrimaryFloatingActionButton(
-            icon = "",
+            icon = Icons.Filled.Add,
         )
     }
 }

@@ -1,0 +1,25 @@
+package com.anthooop.paletpro
+
+import cafe.adriel.voyager.core.model.ScreenModel
+
+class MainViewModel() : ScreenModel {
+
+    ///////////////////////////////////////////////////////////////////////////
+    // COMPANION
+    ///////////////////////////////////////////////////////////////////////////
+
+    companion object {
+        private const val TAG = "MainViewModel"
+    }
+
+    ///////////////////////////////////////////////////////////////////////////
+    // DATA
+    ///////////////////////////////////////////////////////////////////////////
+
+    // GET flow data with onboarding
+}
+
+sealed class OnBoardingState {
+    data object Loading : OnBoardingState()
+    data class Success(val completed: Boolean) : OnBoardingState()
+}

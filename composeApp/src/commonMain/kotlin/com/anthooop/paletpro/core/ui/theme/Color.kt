@@ -1,41 +1,66 @@
+/*
+ * Import from figma plugging : Material theme builder
+ */
+
 package com.anthooop.paletpro.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val PrimaryColor = Color(0xffFFFFFD)
-val PrimaryLightColor = PrimaryColor.copy(alpha = 0.75f)
+val primaryLight = Color(0xFF68548E)
+val onPrimaryLight = Color(0xFFFFFFFF)
+val primaryContainerLight = Color(0xFFEBDDFF)
+val onPrimaryContainerLight = Color(0xFF230F46)
+val secondaryLight = Color(0xFF635B70)
+val onSecondaryLight = Color(0xFFFFFFFF)
+val secondaryContainerLight = Color(0xFFE9DEF8)
+val onSecondaryContainerLight = Color(0xFF1F182B)
+val tertiaryLight = Color(0xFF7E525D)
+val onTertiaryLight = Color(0xFFFFFFFF)
+val tertiaryContainerLight = Color(0xFFFFD9E1)
+val onTertiaryContainerLight = Color(0xFF31101B)
+val errorLight = Color(0xFFBA1A1A)
+val onErrorLight = Color(0xFFFFFFFF)
+val errorContainerLight = Color(0xFFFFDAD6)
+val onErrorContainerLight = Color(0xFF410002)
+val backgroundLight = Color(0xFFFEF7FF)
+val onBackgroundLight = Color(0xFF1D1B20)
+val surfaceLight = Color(0xFFFEF7FF)
+val onSurfaceLight = Color(0xFF1D1B20)
+val surfaceVariantLight = Color(0xFFE7E0EB)
+val onSurfaceVariantLight = Color(0xFF49454E)
+val outlineLight = Color(0xFF7A757F)
+val outlineVariantLight = Color(0xFFCBC4CF)
+val scrimLight = Color(0xFF000000)
+val inverseSurfaceLight = Color(0xFF322F35)
+val inverseOnSurfaceLight = Color(0xFFF5EFF7)
+val inversePrimaryLight = Color(0xFFD3BCFD)
 
-val SecondaryColor = Color(0xff7C93BE)
-val SecondaryLightColor = SecondaryColor.copy(alpha = 0.75f)
 
-val PrimaryTextColor = Color(0xffffffff)
-val SecondaryTextColor = Color(0xff000000)
-
-// val SurfaceDark = Color(0xFF1f1f1f)
-// val SurfaceDark = Color(0xFF121212)
-val SurfaceDark = Color(0xFF161616)
-
-val SurfaceLight = Color(0xFFFFFFFF)
-
-val BackgroundLightColor = Color(0xffF1F0F5)
-
-val BackgroundDarkColor = Color(0xff010100)
-
-val ErrorColor = Color(0xFFFF8989)
-val OnErrorColor = Color(0xFF000000)
-
-val SuccessColor = Color(0xFF34b233)
-
-const val SessionColor = 0xFfBA4949
-const val ShortBreakColor = 0xFf38858A
-const val LongBreakColor = 0xFf397097
-
-const val Red = 0xFFFF0000
-const val Orange = 0xFFFFA500
-const val Blue = 0xFF0000FF
-const val Green = 0xFF00FF00
-
-const val LightGreen = 0xFF90EE90
-const val Yellow = 0xFFFFFF00
-const val LightBlue = 0xFFADD8E6
-const val Pink = 0xFFFFC0CB
+val primaryDark = Color(0xFFD3BCFD)
+val onPrimaryDark = Color(0xFF38265C)
+val primaryContainerDark = Color(0xFF4F3D74)
+val onPrimaryContainerDark = Color(0xFFEBDDFF)
+val secondaryDark = Color(0xFFCDC2DB)
+val onSecondaryDark = Color(0xFF342D40)
+val secondaryContainerDark = Color(0xFF4B4358)
+val onSecondaryContainerDark = Color(0xFFE9DEF8)
+val tertiaryDark = Color(0xFFF0B7C5)
+val onTertiaryDark = Color(0xFF4A2530)
+val tertiaryContainerDark = Color(0xFF643B46)
+val onTertiaryContainerDark = Color(0xFFFFD9E1)
+val errorDark = Color(0xFFFFB4AB)
+val onErrorDark = Color(0xFF690005)
+val errorContainerDark = Color(0xFF93000A)
+val onErrorContainerDark = Color(0xFFFFDAD6)
+val backgroundDark = Color(0xFF151218)
+val onBackgroundDark = Color(0xFFE7E0E8)
+val surfaceDark = Color(0xFF151218)
+val onSurfaceDark = Color(0xFFE7E0E8)
+val surfaceVariantDark = Color(0xFF49454E)
+val onSurfaceVariantDark = Color(0xFFCBC4CF)
+val outlineDark = Color(0xFF948F99)
+val outlineVariantDark = Color(0xFF49454E)
+val scrimDark = Color(0xFF000000)
+val inverseSurfaceDark = Color(0xFFE7E0E8)
+val inverseOnSurfaceDark = Color(0xFF322F35)
+val inversePrimaryDark = Color(0xFF68548E)
