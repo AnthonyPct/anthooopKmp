@@ -3,6 +3,7 @@ package com.anthooop.paletpro
 import android.app.Application
 import com.anthooop.paletpro.base.di.androidModules
 import com.anthooop.paletpro.base.di.commonModule
+import com.anthooop.paletpro.base.di.repositoryModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
@@ -22,6 +23,7 @@ class PaletProApp : Application() {
             androidContext(androidContext = this@PaletProApp)
             modules(
                 listOf(
+                    repositoryModule(),
                     commonModule(),
                     androidModules
                 ),
